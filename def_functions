@@ -1,0 +1,11 @@
+class Hema:
+    print("my nama is hemalatha")
+    def add(self,a,b):
+        print(a+b)
+        print(a-b)
+    def mul(self,a,b,c): 
+        print(a*b+c)
+        
+obj=Hema()
+obj.add(10,20)
+obj.mul(4,2,5)
